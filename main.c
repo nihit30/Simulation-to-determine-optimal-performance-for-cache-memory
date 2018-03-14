@@ -416,7 +416,7 @@ void init_cache(void)
     cntr_rd_line = CLEAR;
     cntr_rd_miss = CLEAR;
     cntr_rd_d_replace = CLEAR;
-    cntr_rd_cache = CLEAR;
+    cntr_rd_cache = 0;
 }
 
 /*
